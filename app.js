@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
   const query = req.body.cityName;
-  const apiKey = "ccdd99e95bf1e6398858d9d7b7745430";
+  const apiKey = "";
   const unit = "metric";
   axios
     .get(
